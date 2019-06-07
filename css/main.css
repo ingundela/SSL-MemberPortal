@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	line-height: 1.7;
+	color: #2c363e;
+	font-weight: 400;
+	margin: 0 auto;
+	position: relative;
+	overflow-x: hidden;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiase;
+}
+
+p,
+li {
+	font-size: 1rem;
+	display: block;
+	line-height: 1.7;
+	margin-bottom: 0;
+}
+
+img {
+	display: block;
+  max-width: 100%;
+  max-height: 100%;	
+  height: auto;
+	text-align: center;
+}
+
+a {
+  color: #2c363e;
+  text-decoration: none;
+}
+
+.col_right {
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('../img/hero-img-right.jpg');
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	top: 0;
+	bottom: 0;
+	width: 50%;
+	height: 100vh;
+	z-index: 1;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.col_left {
+	padding-top: 345px;
+	padding-right: 20px;
+	bottom: 0;
+	max-width: 50%;
+	height: 100vh;
+	justify-content: center;
+}
+
+.input_content {
+	padding-left: 20px;
+}
+
+.logo_area {
+	display: inline-block;
+}
+
+.logo_area img {
+	width: 250px;
+}
+
+.logo_area_content h3 {
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 20px 0;
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.logo_area_content span {
+	display: inline-block;
+}
+
+.logo_area_content p {
+	text-transform: capitalize;
+}
+.to_register {
+	color: #009900;
+}
+form > input {
+	padding: 20px 100px;
+	margin: 10px 0;
+	font-style: italic;
+	background-color: rgba(255, 255, 255, .7);
+}
+
+form > .btn_submit {
+	text-decoration: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #0083df;
+	padding: 15px 40px;
+	margin-top: 30px;
+	border-radius: 5px;
+	transition: all 0.3s ease-in-out;
+	letter-spacing: 1px;
+}
+
+form > .btn_submit:hover {
+	background-color: rgb(0, 131, 223, 0.7);
+	text-decoration: none;
+}
+.btn_password {
+	text-transform: lowercase;
+	text-transform: capitalize;
+	margin-left: 10px;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	transition: all 0.3s ease-in-out;
+}
+.btn_password:hover {
+	color: #fff;
+	text-decoration: none;
+	color: #cccccc;
+}
+
+/*-----MEMBER IS LOGGED IN (MEMBER'S AREA) -----*/
+.navbar {
+	padding: 20px 0;
+	border-bottom: 10px solid #009900;
+	position: relative;
+}
+
+.navbar img {
+	width: 150px;
+}
+#hero-img {
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('../img/hero-img-right.jpg');
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 350px;
+	z-index: 1;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.member_wellcome_content {
+	color: #fff;
+}
+
+.member_h1 {
+	font-size: 2.5rem;
+	text-transform: capitalize;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	text-transform: capitalize;
+	transition: all 0.3s ease-in-out;
+	display: block;
+	font-size: 1rem;
+	margin-right: 20px;
+}
+
+.call_action {
+	color: #009900;
+}
+
+/*--member details--*/
+.section_space {
+	padding: 70px 0;
+}
+
+.h2_details {
+	text-transform: capitalize;
+	font-size: 2.2rem;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.principal_details {
+  margin-right: 10px;
+  color: #666;
+}
+
+.inicial_capital {
+  text-transform: capitalize;
+}
+.active_member {
+	color: #009900;
+}
+
+.member_list_details {
+	margin-top: 20px;
+}
+
+.photo_col {
+  width: 300px;
+  height: 300px;
+  background-color: #e6e6e6;
+  border: 1px solid #d9d9d9;
+}
+
+.member_photo {
+  background: url(../img/member_photo.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.changes {
+  width: 300px;
+  background-color: #f2f2f2;
+}
+
+.changes i {
+  margin: 0 10px;
+}
+
+.changes a:hover {
+  text-decoration: none;
+}
+
+.item_to_change {
+  border: #e6e6e6;
+  text-transform: capitalize;
+  padding: 10px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.item_to_change:hover {
+  background-color:#d9d9d9;
+  color: #2c363e;
+}
+
+/*-- FOOTER SECTION --- */
+
+.footer_content {
+  padding: 20px 0;
+  border-top: 1px solid grey;
+}
+
+.footer_content p {
+  font-size: 0.7rem;
+}
